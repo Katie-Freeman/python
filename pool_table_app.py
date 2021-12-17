@@ -32,12 +32,12 @@ while True:
     print("---Welcome to K8's Pool Lounge!---")
     print(f" \t   {current_date}\n")
     print("**********************************\n")
-    print("_____________________________________\n")
+    print("___________________________________\n")
     print("Enter 1 to checkout table: ")
     print("Enter 2 to checkin table: ")
     print("Enter 3 to display all tables: ")
     print("Enter q to quit: ")
-    print("_____________________________________\n")
+    print("___________________________________\n")
 
     choice = input("Enter choice: ")
     try:
