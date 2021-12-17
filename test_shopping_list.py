@@ -18,7 +18,7 @@ class ShoppingListTest(unittest.TestCase):
         self.shopping_list.add_grocery_item("banana")
         self.shopping_list.add_grocery_item("milk")
         self.shopping_list.delete_grocery_item(1)
-        self.assertEqual(5, len(self.shopping_list.grocery_items))
+        self.assertEqual(1, len(self.shopping_list.grocery_items))
 
 
     def tearDown(self):
